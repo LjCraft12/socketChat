@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Socket Chat</title>
+</head>
+<body>
+<div id="socket-chat">
+    <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"></div>
+    </div>
+    <input type="text" id="handle" placeholder="Enter your handle">
+    <input type="text" id="message" placeholder="Enter your message">
+    <button id="send">Send</button>
+</div>
+
+<script src="./chat.js"></script>
+</body>
+</html>
